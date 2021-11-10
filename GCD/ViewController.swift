@@ -11,7 +11,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        func nnfsd(name: @escaping(String)->Void){
+            name("Kirill")
+        }
+        
+        nnfsd { (nameUser) in
+            print("Hello user \(nameUser)")
+        }
+        
+        print("КТо ты")
     }
 
 
