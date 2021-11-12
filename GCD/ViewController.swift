@@ -13,6 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         func nnfsd(name: @escaping(String)->Void){
             name("Kirill")
+            print("")
+            print("")
+            print("")
+            print("")
         }
         
         nnfsd { (nameUser) in
